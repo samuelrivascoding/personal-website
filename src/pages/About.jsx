@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback} from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import PortfolioHeaderAbout from "../components/PortfolioHeaderAbout";
@@ -9,19 +9,21 @@ const About = () => {
   const navigate = useNavigate();
 
   const onLinkHomeContainerClick = useCallback(() => {
-    navigate("/home");
-  }, [navigate]);
-
-  const onLinkOtherCodingProjectsClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
-  const onLinkHomeContainer2Click = useCallback(() => {
-    navigate("/home");
+  const onLinkOtherCodingProjectsClick = useCallback(() => {
+    navigate("/projects");
   }, [navigate]);
 
+  const onLinkHomeContainer2Click = useCallback(() => {
+    navigate("/");
+  }, [navigate]);
+
+
+  
   return (
-    <div className="w-full relative bg-background-color-primary flex flex-col items-start justify-start gap-[32px]">
+    <div className=" w-full relative bg-background-color-primary flex flex-col items-start justify-start gap-[32px] bg-background-color-primary;">
       <Navbar
         onLinkAboutMeAndAwardsClick={onLinkHomeContainerClick}
         secondLink="Home"
@@ -31,6 +33,7 @@ const About = () => {
       <PortfolioHeaderAbout />
       <ContentAbout />
       <Footer
+        onLinkOtherCodingProjectsClick={onLinkOtherCodingProjectsClick}
         firstLink="Other Coding Projects"
         onLinkAboutMeAndAwardsClick={onLinkHomeContainer2Click}
         secondLink="Home"

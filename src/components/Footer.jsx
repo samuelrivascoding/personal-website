@@ -27,7 +27,7 @@ const Footer = ({
         </div>
         <div className="self-stretch flex-1 flex flex-row flex-wrap items-start justify-end gap-[40px]">
           <div
-            className="w-[180px] relative h-6 cursor-pointer"
+            className="w-[184px] relative h-6 cursor-pointer"
             onClick={onLinkOtherCodingProjectsClick}
           >
             <div className="absolute top-[0%] left-[0%] leading-[150%]">
@@ -35,7 +35,7 @@ const Footer = ({
             </div>
           </div>
           <div
-            className="w-[180px] relative h-6 cursor-pointer"
+            className="w-[184px] relative h-6 cursor-pointer"
             onClick={onLinkAboutMeAndAwardsClick}
           >
             <div className="absolute top-[0%] left-[0%] leading-[150%]">

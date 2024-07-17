@@ -4,11 +4,12 @@ import Navbar from "../components/Navbar";
 import ContentApplicationSpace from "../components/ContentApplicationSpace";
 import Footer from "../components/Footer";
 
+
 const Projects = () => {
   const navigate = useNavigate();
 
   const onLinkHomeContainerClick = useCallback(() => {
-    navigate("/home");
+    navigate("/");
   }, [navigate]);
 
   const onLinkAboutMeAndAwardsClick = useCallback(() => {
@@ -20,7 +21,7 @@ const Projects = () => {
   }, [navigate]);
 
   const onLinkHomeContainer2Click = useCallback(() => {
-    navigate("/home");
+    navigate("/");
   }, [navigate]);
 
   return (

@@ -6,6 +6,7 @@ import FranklinClubHome from "../components/FranklinClubHome";
 import ProjectSectionHome from "../components/ProjectSectionHome";
 import Footer from "../components/Footer";
 
+
 const Home = () => {
   const navigate = useNavigate();
 
@@ -14,11 +15,11 @@ const Home = () => {
   }, [navigate]);
 
   const onLinkOtherCodingProjectsClick = useCallback(() => {
-    navigate("/");
+    navigate("/projects");
   }, [navigate]);
 
   const onLinkOtherCodingProjects2Click = useCallback(() => {
-    navigate("/");
+    navigate("/projects");
   }, [navigate]);
 
   const onLinkAboutMeAndAwards2Click = useCallback(() => {

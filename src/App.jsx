@@ -8,6 +8,8 @@ import {
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import "./global.css";
+
 
 function App() {
   const action = useNavigationType();
@@ -33,7 +35,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/home":
+      case "/projects":
         title = "";
         metaDescription = "";
         break;
@@ -55,9 +57,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Projects />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
     </Routes>
   );
 }

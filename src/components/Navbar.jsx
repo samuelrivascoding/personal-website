@@ -15,7 +15,7 @@ const Navbar = ({
         <div className="self-stretch overflow-hidden flex flex-row items-start justify-start">
           <div className="flex-1 flex flex-row flex-wrap items-start justify-end gap-[40px]">
             <div
-              className="w-[180px] relative h-6 cursor-pointer"
+              className="w-[184px] relative h-6 cursor-pointer"
               onClick={onLinkOtherCodingProjectsClick}
             >
               <div className="absolute top-[0%] left-[0%] leading-[150%]">
@@ -23,7 +23,7 @@ const Navbar = ({
               </div>
             </div>
             <div
-              className="w-[180px] relative h-6 cursor-pointer"
+              className="w-[184px] relative h-6 cursor-pointer"
               onClick={onLinkAboutMeAndAwardsClick}
             >
               <div className="absolute top-[0%] left-[0%] leading-[150%]">
