@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "personal website",
+    "id": "669558a5d1812c96aeb677d6",
+    "framework": "react",
+    "typescript": false,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Pascal Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\uno59\\Documents\\Projects\\coding for app\\personal website\\src\\components",
+    "screensPath": "c:\\Users\\uno59\\Documents\\Projects\\coding for app\\personal website\\src\\pages"
+  }
+}
