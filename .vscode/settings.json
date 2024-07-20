@@ -11,5 +11,6 @@
     "componentsPath": "c:\\Users\\uno59\\Documents\\Projects\\coding for app\\personal website\\src\\components",
     "screensPath": "c:\\Users\\uno59\\Documents\\Projects\\coding for app\\personal website\\src\\pages"
   },
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "automatic"
 }
