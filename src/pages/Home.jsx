@@ -35,7 +35,6 @@ const Home = () => {
         firstLink="Other Coding Projects"
       />
       <PortfolioHeaderHome />
-      <FranklinClubHome />
       <ProjectSectionHome />
       <Footer
         onLinkOtherCodingProjectsClick={onLinkOtherCodingProjects2Click}

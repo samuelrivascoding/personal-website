@@ -16,8 +16,8 @@ const FranklinClubHome = ({ className = "" }) => {
             Franklin High School STEM Club
           </h1>
           <div className="self-stretch relative text-lg leading-[150%]">
-            I started the Franklin High school STEM Club and raised over 1,000
-            dollars to improve access to STEM resources in my community. To view
+            I started the Franklin High school STEM Club and raised over 500
+            dollars to start a merit-based scholarship to encourage STEM interest in my community. To view
             the scholarship I started, click here. To view the website I coded,
             click to the right.
           </div>

@@ -66,7 +66,7 @@ const ContentAbout = ({ className = "" }) => {
         <img
           className="w-[480px] relative h-[484px] object-cover"
           alt=""
-          src="/placeholder-image@2x.png"
+          src="/awards.png"
         />
       </div>
     </section>

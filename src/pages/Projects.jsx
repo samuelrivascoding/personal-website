@@ -33,16 +33,7 @@ const Projects = () => {
         firstLink="About me and Awards"
       />
       <ContentApplicationSpace />
-      <section className="self-stretch flex flex-col items-start justify-start py-20 px-space-2400 text-left text-base text-delft-blue font-text-regular-normal">
-        <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-4">
-          <div className="self-stretch relative leading-[150%]">
-            This course by Harvard University is something I am currently doing;
-            I enjoy greatly learning Computer Science. While I have yet to
-            accumulate much more direct experience, I am still very passionate
-            about Computer Science and learning this subject.
-          </div>
-        </div>
-      </section>
+      
       <Footer
         onLinkOtherCodingProjectsClick={onLinkAboutMeAndAwards2Click}
         firstLink="About me and Awards"
