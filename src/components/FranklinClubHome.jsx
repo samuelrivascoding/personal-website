@@ -5,21 +5,18 @@ const FranklinClubHome = ({ className = "" }) => {
     <section
       className={`self-stretch overflow-hidden flex flex-col items-start justify-start py-10 px-space-2400 gap-[40px] text-left text-37xl text-delft-blue font-text-regular-normal ${className}`}
     >
-      <img
-        className="self-stretch max-w-full overflow-hidden h-[502px] shrink-0 object-cover"
-        alt=""
-        src="/picture@2x.png"
-      />
       <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-start justify-start py-20 px-0 gap-[48px] border-t-[1px] border-solid border-sapphire border-b-[1px]">
         <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[240px]">
           <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">
             Franklin High School STEM Club
           </h1>
           <div className="self-stretch relative text-lg leading-[150%]">
-            I started the Franklin High school STEM Club and raised over 500
-            dollars to start a merit-based scholarship to encourage STEM interest in my community. To view
-            the scholarship I started, click here. To view the website I coded,
-            click to the right.
+          I founded the Franklin High School STEM Club with the goal of inspiring my peers to pursue careers in science, 
+          technology, engineering, and mathematics. Although the club initially had a small membership of 5-6 students, piggy-backing off of the existing TSA club, 
+          I successfully mentored a group of freshmen to start a Girls Who Code chapter at our school. This experience 
+          allowed me to develop strong leadership skills, as I organized club activities, mentored younger students, and 
+          successfully built a supportive community for STEM enthusiasts. I also demonstrated my technical abilities by 
+          coding the club's website using React Js.
           </div>
         </div>
         <div className="flex-1 flex flex-row flex-wrap items-start justify-start min-w-[176px] text-xl">
@@ -44,6 +41,15 @@ const FranklinClubHome = ({ className = "" }) => {
                 target="_blank"
               >
                 Franklin High school STEM Club
+              </a>
+            </div>
+            <div className="w-[120px] flex flex-col items-start justify-start gap-[8px] min-w-[120px]">
+              <a
+                className="self-stretch relative text-base [text-decoration:underline] leading-[150%] text-[inherit]"
+                href="https://www.instagram.com/franklinstemclub_/"
+                target="_blank"
+              >
+                Instagram
               </a>
             </div>
           </div>

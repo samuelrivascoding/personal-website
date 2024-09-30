@@ -21,7 +21,7 @@ const ContentAbout = ({ className = "" }) => {
                   From left to right, top to bottom, the medals are:
                 </p>
                 <p className="m-0">
-                  1st place in UIL Computer Science in 11th grade
+                  1st place in UIL Team Competitive Programming in 10th grade
                 </p>
                 <p className="m-0">
                   1st place in UIL Number Sense in 10th grade
@@ -35,14 +35,14 @@ const ContentAbout = ({ className = "" }) => {
                   1st place in FBLA Website Coding and Development in 11th grade
                 </p>
                 <p className="m-0">
-                  2nd place in UIL Team Competitive Programming during 10th
+                  2nd place in UIL Computer Science during 11th grade
                   grade
                 </p>
                 <p className="m-0">
                   3rd place UIL Speech and Debate in 9th grade
                 </p>
                 <p className="m-0">
-                  3rd place in UIL Social Studies in 8th grade
+                  3rd place in UIL Number Sense in 9th grade
                 </p>
                 <p className="m-0">
                   3rd place in UIL Number Sense in 10th grade

@@ -37,7 +37,7 @@ const PortfolioHeaderAbout = ({ className = "" }) => {
               </div>
             </div>
             <div className="w-[405px] h-[327px] flex flex-col items-start justify-start">
-              <div className="w-[300px] relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-17xl bg-gray box-border h-[300px] border-[10px] border-solid border-periwinkle" />
+              <div className="w-[300px] relative shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-17xl bg-gray box-border h-[300px] border-[10px] border-solid border-periwinkle" style={{ backgroundImage: "url('public/photoofMe.jpg')", backgroundSize: "cover" }}/>
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[80px] text-xl">

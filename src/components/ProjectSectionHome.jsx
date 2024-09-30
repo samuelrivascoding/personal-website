@@ -36,24 +36,7 @@ const ProjectSectionHome = ({ className = "" }) => {
           src="/image1@2x.png"
         />
       </div>
-      <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-4 px-0 gap-[80px]">
-      <img
-          className="w-[405px] relative h-[327px] object-cover"
-          alt=""
-          src="/autonomousracecar.png"
-        />
-        <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[384px]">
-          <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">
-            MIT BWSI Open BWSI Course
-          </h1>
-          <div className="self-stretch flex flex-col items-start justify-start text-base">
-            <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-4">
-              <div className="self-stretch relative leading-[150%]">
-                I participated in the selective MIT self-study course based on Autonomous RACECAR course for the MIT Beaverworks Program. I learned about the basic fundamentals of computer vision for an Autonomous Racecar. I no longer have access to course now that summer is over, but it was an interesting experience! I enjoyed it.
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-4 px-0 gap-[80px] hidden">
 
       </div>
     </section>
