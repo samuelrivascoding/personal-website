@@ -14,8 +14,8 @@ const ProjectSectionHome = ({ className = "" }) => {
       </div>
       <ContainerHarmHome />
       <ContainerApacheHome />
-      <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-4 px-0 gap-[80px]">
-        <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[384px]">
+      <div className="self-stretch flex flex-row flex-wrap items-start justify-center py-4 px-0 gap-[80px]">
+        <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[336px]">
           <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">
             CS50: Introduction to Computer Science
           </h1>

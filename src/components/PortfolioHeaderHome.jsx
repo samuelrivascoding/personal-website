@@ -36,7 +36,7 @@ const PortfolioHeaderHome = ({ className = "" }) => {
     >
       <div className="self-stretch flex flex-row items-end justify-end border-b-[1px] border-solid border-sapphire">
         <div ref={containerRef} className="homeheader">
-        <div className="self-stretch w-[760px] box-border flex flex-col items-end justify-end pt-0 pb-10 pr-0 pl-9 gap-[24px] max-w-[760px] border-l-[1px] border-solid border-sapphire">
+        <div className="self-stretch box-border flex flex-col items-end justify-end pt-0 pb-10 pr-0 pl-9 gap-[24px] max-w-[760px] border-l-[1px] border-solid border-sapphire">
           <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">    
               {`Hello! I’m Samuel Rivas. `}
               </h1>

@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 const ContentAbout = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch overflow-hidden flex flex-col items-center justify-start py-0 px-space-2400 text-left text-29xl text-delft-blue font-text-regular-normal ${className}`}
+      className={`self-stretch overflow-hidden flex flex-col items-center justify-center py-0 px-space-2400 text-left text-29xl text-delft-blue font-text-regular-normal ${className}`}
     >
-      <div className="self-stretch flex flex-row flex-wrap items-start justify-start gap-[40px_64px]">
+      <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[40px_64px]">
         <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[336px]">
           <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">
             Awards:

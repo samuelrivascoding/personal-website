@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 const FranklinClubHome = ({ className = "" }) => {
   return (
     <section
-      className={`self-stretch overflow-hidden flex flex-col items-start justify-start py-10 px-space-2400 gap-[40px] text-left text-37xl text-delft-blue font-text-regular-normal ${className}`}
+      className={`self-stretch flex flex-col items-start justify-start py-10 px-space-2400 gap-[40px] text-left text-37xl text-delft-blue font-text-regular-normal ${className}`}
     >
-      <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-start justify-start py-20 px-0 gap-[48px] border-t-[1px] border-solid border-sapphire border-b-[1px]">
+      <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-20 px-0 gap-[48px] border-t-[1px] border-solid border-sapphire border-b-[1px]">
         <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[240px]">
           <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">
             Franklin High School STEM Club

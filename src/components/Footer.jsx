@@ -17,15 +17,13 @@ const Footer = ({
       className={`self-stretch overflow-hidden flex flex-col items-start justify-start py-20 px-space-2400 text-left text-base text-delft-blue font-text-regular-normal ${className}`}
     >
       <div className="self-stretch flex flex-row items-start justify-between py-4 px-0 border-b-[1px] border-solid border-sapphire">
-        <div className="flex flex-row items-center justify-start">
-          <div
-            className="relative leading-[150%] cursor-pointer"
+        <div className="self-stretch flex-1 flex flex-row flex-wrap items-start justify-end gap-[40px]">
+        <div
+            className="w-[184px] relative leading-[150%] cursor-pointer hidden"
             onClick={onGithubTextClick}
           >
             Github
           </div>
-        </div>
-        <div className="self-stretch flex-1 flex flex-row flex-wrap items-start justify-end gap-[40px]">
           <div
             className="w-[184px] relative h-6 cursor-pointer"
             onClick={onLinkOtherCodingProjectsClick}

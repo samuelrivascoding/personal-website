@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const ContainerHarmHome = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch flex flex-row flex-wrap items-start justify-start py-4 px-0 gap-[80px] text-left text-29xl text-delft-blue font-text-regular-normal ${className}`}
+      className={`self-stretch flex flex-row flex-wrap items-start justify-center py-4 px-0 gap-[80px] text-left text-29xl text-delft-blue font-text-regular-normal ${className}`}
     >
       <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[280px]">
         <h1 className="m-0 self-stretch relative text-inherit leading-[120%] font-bold font-inherit">

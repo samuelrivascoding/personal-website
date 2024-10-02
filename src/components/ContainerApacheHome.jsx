@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const ContainerApacheHome = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch flex flex-row flex-wrap items-start justify-start py-4 px-0 gap-[80px] text-left text-29xl text-delft-blue font-text-regular-normal ${className}`}
+      className={`self-stretch flex flex-row flex-wrap items-start justify-center py-4 px-0 gap-[80px] text-left text-29xl text-delft-blue font-text-regular-normal ${className}`}
     >
       <img
         className="w-[500px] relative h-[210px] object-cover"
